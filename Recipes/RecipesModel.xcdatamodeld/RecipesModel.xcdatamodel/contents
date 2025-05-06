@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23605" systemVersion="24D70" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CachedDetails" representedClassName="CachedDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="ingredients" optional="YES" attributeType="Transformable"/>
+        <attribute name="instructions" optional="YES" attributeType="Transformable"/>
+        <attribute name="measurements" optional="YES" attributeType="Transformable"/>
+    </entity>
+    <entity name="CachedRecipe" representedClassName="CachedRecipe" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="thumbnailURL" optional="YES" attributeType="String"/>
+    </entity>
+</model>

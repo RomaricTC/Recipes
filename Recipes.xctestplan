@@ -1,0 +1,44 @@
+{
+  "configurations" : [
+    {
+      "id" : "B96A4D61-0E15-4BEB-8F40-DC983A09E4EE",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "commandLineArgumentEntries" : [
+      {
+        "argument" : "-mockRecipes"
+      },
+      {
+        "argument" : "-mockError"
+      }
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Recipes.xcodeproj",
+      "identifier" : "987390CB2C62DC09009B470F",
+      "name" : "Recipes"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Recipes.xcodeproj",
+        "identifier" : "987390DB2C62DC0B009B470F",
+        "name" : "RecipesTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Recipes.xcodeproj",
+        "identifier" : "986DC3872D6924D6001D4813",
+        "name" : "RecipesUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
